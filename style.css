@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url(_fontes/FiraCode-Light.ttf);
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: justify;
+    background: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)100%), url(_imagens/terra.jpg); 
+}
+
+pre {
+    font-size: 1.15em;
+}
+
+#ola-mundo {
+    font-family: 'Fira Code';
+}
+
+.ola {
+    color: rgb(218, 21, 53);
+}
+
+.mundo {
+    color: rgb(5, 185, 5);
+}
