@@ -10,6 +10,13 @@
     padding: 0px;
 }
 
+#ola-mundo {
+    font-family: 'Fira Code';
+    border-bottom: 1px solid rgba(255,255,2555,.30);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 body {
     font-family: Impact, 'Arial Narrow', sans-serif;
     color: white;
@@ -21,40 +28,38 @@ main {
     margin: auto;
 }
 
-main div {
+main section {
     min-width: 300px;
     max-width: 400px;
     display: inline-block;
     margin: 30px;
 }
 
-main div#lenda {
+main section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main section code#codigo {
+    color:rgb(21, 129, 21);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 25px 5px 0px;
+}
+
+main section#lenda {
     position: absolute;
 }
 
-main div p {
+main section p {
     text-shadow: 1px 1px 0px black;
 }
 
-pre {
-    font-size: 1.15em;
-    padding: 0%;
-}
 
-#ola-mundo {
-    font-family: 'Fira Code';
-    border-bottom: 1px solid rgba(255,255,2555,.30);
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.ola {
-    color: rgb(218, 21, 53);
-}
-
-.mundo {
-    color: rgb(5, 185, 5);
-}
 
 footer {
     display: block;
